@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <button onclick="ChangeColor()">ChangeColor</button>
+    <script>
+    function ChangeColor(){
+        var tags=document.getElementsByTagName("h1");
+        tags[0].style.color="red"
+        tags[1].style.color="green"
+        tags[2].style.color="blue"
+        tags[3].style.color="orange"
+
+    }
+    </script>
+    
+</body>
+</html>
